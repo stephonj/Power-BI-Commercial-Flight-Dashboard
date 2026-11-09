@@ -1,55 +1,45 @@
 # Power-BI-Commercial-Flight-Dashboard
 
-# Overview
+# Summary
 
-An interactive Power BI dashboard designed to analyze commercial flight performance, identify delay patterns, and examine flight cancellations. The dashboard summarizes flight activity and presents trends and comparisons across months, cities, airlines, and cancellation categories.
+An interactive Power BI dashboard analyzing roughly 2 million commercial flight records. It summarizes flight activity and shows delay and cancellation patterns across months, cities, airlines, and cancellation categories.
 
-# Tools & Technologies
+# Business Questions Answered
+Which airlines and cities have the highest delay rates?
+How do flight volume, delays, and cancellations change month to month?
+Why are flights canceled, and on which days of the week do cancellations cluster?
+Key Findings
+United Airlines had the highest delay rate among airlines at 53%, with about 139K delayed flights.
+Houston, TX had the highest delay rate among cities at 42%, with about 61K delayed flights.
 
-Microsoft Power BI
-
-Power Query
-
-Data cleaning and transformation
-
-Data modeling and visualization
 
 # Dashboard Features
+**KPI cards**: total flights, delayed flights, canceled flights
 
-Key Performance Indicators: Total flights, delayed flights, and canceled flights.
+**Monthly trends**: total flights, delays, and cancellations over time
 
-Monthly Trends: Visualizations of total flights, delayed flights, and cancellations over time.
+**City analysis**: flight volume by city
 
-City Analysis: Comparison of flight volume across cities.
+**Airline analysis**: delay rate by airline
 
-Airline Analysis: Comparison of delay rates by airline.
+**Cancellation analysis**: breakdown by cancellation description and day of week
 
-Cancellation Analysis: Breakdown of cancellations by description and day of the week.
-
-Flight Status: Overview of canceled, delayed, and on-time flights.
+**Flight status**: share of on-time, delayed, and canceled flights
 
 # Data Preparation
 
-Used Power Query to clean and transform the source dataset, select relevant columns, and create a conditional flight-status column to categorize flights as on-time, delayed, or canceled. 
+Used Power Query to clean and transform the source data and keep only the relevant columns.
 
-Created data relationships and measures to support dashboard reporting.
+Created a conditional column classifying each flight as on-time, delayed, or canceled.
+Built data relationships and DAX measures to support the KPI cards and visuals.
+Tools
 
-# Project Objective
-
-To demonstrate practical skills in data preparation, data modeling, KPI reporting, and interactive visualization using Power BI.
-
-# Key Findings
-
-United Airlines had the highest delayed flights percentage among the airlines.
-
-Houston, TX had the highest delayed flights percentage among cities. 
+Microsoft Power BI, Power Query, data modeling, DAX measures, data visualization
 
 # Files
+Flight_Performance_Dashboard.pbix: Power BI dashboard file
 
-Flight_Performance_Dashboard.pbix — Power BI dashboard file
-
-dashboard-screenshot.png — Dashboard preview
+dashboard-screenshot.png: dashboard preview
 
 # Notes
-
-This project was developed for portfolio and educational purposes. Findings and metrics should be interpreted in the context of the source dataset.
+Built for portfolio and educational purposes. Findings apply to the source dataset and should be interpreted in that context.
