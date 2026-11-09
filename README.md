@@ -30,7 +30,9 @@ Flight Status: Overview of canceled, delayed, and on-time flights.
 
 # Data Preparation
 
-Used Power Query to clean and transform the source dataset, select relevant columns, and create a conditional flight-status column to categorize flights as on-time, delayed, or canceled. Created data relationships and measures to support dashboard reporting.
+Used Power Query to clean and transform the source dataset, select relevant columns, and create a conditional flight-status column to categorize flights as on-time, delayed, or canceled. 
+
+Created data relationships and measures to support dashboard reporting.
 
 # Project Objective
 
@@ -39,6 +41,7 @@ To demonstrate practical skills in data preparation, data modeling, KPI reportin
 # Key Findings
 
 American Airlines had the highest delayed flights percentage among the airlines.
+
 Houston, TX had the highest delayed flights percentage among cities. 
 
 # Files
