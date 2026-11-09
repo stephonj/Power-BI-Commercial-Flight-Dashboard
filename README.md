@@ -40,7 +40,7 @@ To demonstrate practical skills in data preparation, data modeling, KPI reportin
 
 # Key Findings
 
-American Airlines had the highest delayed flights percentage among the airlines.
+United Airlines had the highest delayed flights percentage among the airlines.
 
 Houston, TX had the highest delayed flights percentage among cities. 
 
