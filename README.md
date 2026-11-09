@@ -36,6 +36,11 @@ Used Power Query to clean and transform the source dataset, select relevant colu
 
 To demonstrate practical skills in data preparation, data modeling, KPI reporting, and interactive visualization using Power BI.
 
+# Key Findings
+
+American Airlines had the highest delayed flights percentage among the airlines.
+Houston, TX had the highest delayed flights percentage among cities. 
+
 # Files
 
 Flight_Performance_Dashboard.pbix — Power BI dashboard file
