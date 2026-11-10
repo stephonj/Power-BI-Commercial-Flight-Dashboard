@@ -8,10 +8,13 @@ An interactive Power BI dashboard analyzing roughly 2 million commercial flight 
 Which airlines and cities have the highest delay rates?
 How do flight volume, delays, and cancellations change month to month?
 Why are flights canceled, and on which days of the week do cancellations cluster?
-Key Findings
+
+# Key Findings
 United Airlines had the highest delay rate among airlines at 53%, with about 139K delayed flights.
+
 Houston, TX had the highest delay rate among cities at 42%, with about 61K delayed flights.
 
+**Note on interpretation**: this definition uses departure delay with a 0-minute threshold. The common U.S. industry standard counts a flight as delayed only when it is 15 or more minutes late, so the delay rates here are higher than figures that use that stricter rule.
 
 # Dashboard Features
 **KPI cards**: total flights, delayed flights, canceled flights
